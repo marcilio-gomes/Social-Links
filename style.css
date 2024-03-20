@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background-color: #161414;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+
+}
+
+div {
+    background-color: #282525;
+    margin-top: -250px;
+    width: 350px;
+    height: 605px;
+    transform: translateY(50%);
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 40%;
+    max-width: 30%;    
+    
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#orig {
+    color: yellow;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#trab{
+    color: wheat;
+    margin-top: 30px;
+}
+
+a {
+    background-color: #474040ec;;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Responsividade */
+
+@media (min-width: 320px) and (max-width: 480px){
+    body {
+        margin-top: -20px;
+        margin-bottom: 200px;
+    }
+
+    div {
+        width: 90%;
+    }
+    #trab {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    div {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    div {
+        width: 70%;
+        height: 700px;
+    }
+}
